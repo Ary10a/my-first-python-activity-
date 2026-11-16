@@ -1,11 +1,13 @@
-# 1) Ask the user to enter a word or sentence and store it in `text`.
-text=str(input("enter this string"))
-# 2) Reverse the string stored in `text` and store the reversed result in `revText`.
-revText=text[::-1]
-#    (Reversing means the last character becomes first, and the first becomes last.)
-# 3) Replace `text` with the reversed string (set `text` equal to `revText`).
-text=revText
-# 4) Print a message saying you are showing the reversed string.
-print("reverse of given string is ")
-# 5) Print the reversed string stored in `text`.
-print(text)
+# 1) Ask the user to enter marks for 4 subjects: math, english, science, and hindi.
+#    Store each mark in its own variable.
+
+# 2) Add all 4 subject marks and store the total in `sum`.
+
+# 3) Print the total marks stored in `sum`.
+
+# 4) Calculate the percentage:
+#    - Divide `sum` by 400 (total maximum marks for 4 subjects, assuming each is out of 100)
+#    - Multiply the result by 100
+#    Store the final value in `perc`.
+
+# 5) Print the percentage stored in `perc`.

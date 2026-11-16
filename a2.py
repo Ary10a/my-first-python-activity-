@@ -1,29 +1,18 @@
-# 1) Create variables to store different types of values:
-#    - `name` as text (string)
-#    - `age` as a whole number (integer)
-#    - `is_student` as True/False (boolean)
-#    - `weight` as a decimal number (float)
-name="arya"
-age=13
-isStudent=True
-weight=50.34
-# 2) Print each variable’s value.
-print("name is",name)
-print("age is",age)
-print("isStudent is",isStudent)
-print("weight is",weight)
-# 3) Print the datatype of each variable using `type()`.
-print("name data type is ",type(name))
-print("age data type is ",type(age))
-print("isStudent data type is ",type(isStudent))
-print("weight data type is ",type(weight))
-# 4) Show a message that type casting will happen next.
-print("type casting is going to happen next")
-# 5) Convert `age` from an integer to a string and store it back in `age`.
-str1=str(age)
-# 6) Print `age` and print its datatype again to confirm it changed.
-print("age is ",str1,"data type of age is",type(str1))
-# 7) Convert `weight` from a float to an integer and store it back in `weight`.
-weight=int(weight)
-# 8) Print `weight` and print its datatype again to confirm it changed.
-print("weight is ",weight,"data type of weight is",type(weight))
+# 1) Take the total withdrawal amount as input from the user and store it in `Amount`.
+
+# 2) Find how many 100-rupee notes are needed:
+#    Divide `Amount` by 100 (whole number division) and store it in `note_1`.
+
+# 3) Find the remaining amount after taking out 100-rupee notes:
+#    Use the remainder of `Amount` after dividing by 100.
+
+# 4) From the remaining amount, find how many 50-rupee notes are needed:
+#    Divide the remainder by 50 (whole number division) and store it in `note_2`.
+
+# 5) Find the remaining amount after taking out 50-rupee notes:
+#    Use the remainder after dividing by 50.
+
+# 6) From the remaining amount, find how many 10-rupee notes are needed:
+#    Divide the remainder by 10 (whole number division) and store it in `note_3`.
+
+# 7) Print the number of 100-rupee notes, 50-rupee notes, and 10-rupee notes.
