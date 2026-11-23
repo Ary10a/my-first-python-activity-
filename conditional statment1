@@ -1,0 +1,7 @@
+num=56
+if num > 0:
+    print(num,"posotive number")
+num=-80
+if num > 0:
+    print(num,"posotive number")
+ 
