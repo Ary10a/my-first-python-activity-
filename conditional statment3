@@ -1,0 +1,6 @@
+i=int(input("enter a number"))
+if (i < 15):
+    print("i is < 15")
+else: 
+     print("i > 15")
+print("i am not part of the if condition")
