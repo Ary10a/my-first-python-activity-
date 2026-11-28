@@ -1,21 +1,18 @@
-# 1) Ask the user to enter marks for 4 subjects: math, english, science, and hindi.
-#    Store each mark in its own variable.
-print("enter the mark obtained in 4 subjects")
-math=int(input("math ="))
-english=int(input("english ="))
-science=int(input("science ="))
-hindi=int(input("hindi ="))
-# 2) Add all 4 subject marks and store the total in `sum`.
-sum=math+english+science+hindi
+# 1) Ask the user to enter their height in centimeters and store it in `height`.
 
-# 3) Print the total marks stored in `sum`.
-print("sum of the marks = ",sum)
+# 2) Ask the user to enter their weight in kilograms and store it in `weight`.
 
-# 4) Calculate the percentage:
-#    - Divide `sum` by 400 (total maximum marks for 4 subjects, assuming each is out of 100)
-#    - Multiply the result by 100
-#    Store the final value in `perc`.
-perc=(sum/400)*100
+# 3) Calculate BMI using the formula:
+#    BMI = weight ÷ (height in meters)²
+#    (Convert height from cm to meters by dividing by 100.)
+#    Store the result in `BMI`.
 
-# 5) Print the percentage stored in `perc`.
-print("percentage =",perc)
+# 4) Print the BMI value.
+
+# 5) Use if–elif–else to decide the BMI category:
+#    - If BMI is 18.4 or less → print "underweight"
+#    - Else if BMI is 24.9 or less → print "healthy"
+#    - Else if BMI is 29.9 or less → print "over weight"
+#    - Else if BMI is 34.9 or less → print "severely over weight"
+#    - Else if BMI is 39.9 or less → print "obese"
+#    - Else → print "severely obese"

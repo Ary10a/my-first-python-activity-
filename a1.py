@@ -1,17 +1,31 @@
-# 1) Store the values for each tree in separate variables: tree1, tree2, tree3, tree4, tree5
-tree1=40 
-tree2=20
-tree3=84
-tree4=45
-tree5=76
-# 2) Add all 5 tree values and store the result in `sum`
-sum=tree1+tree2+tree3+tree4+tree5
+# 1) Store values in `a`, `b`, and `c`.
+a=10
+b=12
+c=0
 
-# 3) Print the total (`sum`) of all 5 trees
-print("sum of trees are",sum)
-
-# 4) Divide `sum` by 5 to find the average and store it in `average`
-average=sum/5
-
-# 5) Print the average (`average`) of all 5 trees
-print("average of trees are",average)
+# 2) Check an AND condition using `a and b and c`:
+#    - This becomes True only if all three values are treated as True.
+#    - If the condition is True, print the “all true” message.
+#    - Otherwise, print the “at least one false” message.
+if a and  b and c :
+    print ("all the numbers have bolean values as true")
+else:
+    print ("at least one number has bolean value as false")
+# 3) Re-assign (change) new values to `a`, `b`, and `c` for the next checks.
+a=10
+b=-10
+c=0
+# 4) Check an OR condition: `a > 0 or b > 0`
+#    - If at least one of them is greater than 0, print the “either is greater than 0” message.
+#    - Otherwise, print the “no number is greater than 0” message.
+if a > 0 or b > 0:
+    print ("either of the number greater than 0")
+else:
+    print("no number is greater than 0")
+# 5) Check another OR condition: `b > 0 or c > 0`
+#    - If at least one of them is greater than 0, print the “either is greater than 0” message.
+#    - Otherwise, print the “no number is greater than 0” message.
+if b > 0 or c > 0 :
+   print("either of the number greater than 0")
+else:
+    print("no number is greater than 0")

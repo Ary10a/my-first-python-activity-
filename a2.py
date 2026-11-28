@@ -1,25 +1,20 @@
-# 1) Take the total withdrawal amount as input from the user and store it in `Amount`.
-amount=int(input("please enter the amount for withdraw"))
+# 1) Store values in `a`, `b`, and `c`.
 
-# 2) Find how many 100-rupee notes are needed:
-#    Divide `Amount` by 100 (whole number division) and store it in `note_1`.
-note_1=amount//100
+# 2) Check if `a` is not equal to `b` using `!=` and print the result (True/False).
 
-# 3) Find the remaining amount after taking out 100-rupee notes:
-#    Use the remainder of `Amount` after dividing by 100.
-note_2=(amount%100)//50
+# 3) Check if `b` is not equal to `c` using `!=` and print the result (True/False).
 
-# 4) From the remaining amount, find how many 50-rupee notes are needed:
-#    Divide the remainder by 50 (whole number division) and store it in `note_2`.
-note_3=((amount%100)%50)//10
+# 4) Store two strings in `a` and `b`.
 
-# 5) Find the remaining amount after taking out 50-rupee notes:
-#    Use the remainder after dividing by 50.
+# 5) If `a` is not equal to `b`, print a message saying they are different.
 
-# 6) From the remaining amount, find how many 10-rupee notes are needed:
-#    Divide the remainder by 10 (whole number division) and store it in `note_3`.
+# 6) Store new numeric values in `a` and `b`.
 
-# 7) Print the number of 100-rupee notes, 50-rupee notes, and 10-rupee notes.
-print("note of 100 rupee",note_1)
-print("note of 50 rupee",note_2)
-print("note of 10 rupee",note_3)
+# 7) Check this condition: (a equals 1) is not the same as (b equals 5).
+#    - If exactly one of these comparisons is True, the condition becomes True.
+#    - If the condition is True, print "Hello".
+
+# 8) Take an integer input from the user and store it in `a`.
+
+# 9) Check if `a` is not divisible by 2 (remainder is not 0).
+#    - If true, print that `a` is not an even number (it is odd).
